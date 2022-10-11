@@ -14,6 +14,15 @@
 		3DAD60D728F5B15E00C222E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DAD60D528F5B15E00C222E0 /* LaunchScreen.storyboard */; };
 		3DAD60E228F5B15F00C222E0 /* moviles2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAD60E128F5B15F00C222E0 /* moviles2Tests.swift */; };
 		3DAD60ED28F5B15F00C222E0 /* moviles2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAD60EC28F5B15F00C222E0 /* moviles2UITests.swift */; };
+		3DAD60FB28F5B44400C222E0 /* HeroesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAD60FA28F5B44400C222E0 /* HeroesController.swift */; };
+		3DAD60FD28F5B5A400C222E0 /* Heroe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAD60FC28F5B5A400C222E0 /* Heroe.swift */; };
+		3DAD60FF28F5B8DE00C222E0 /* CeldaHeroeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAD60FE28F5B8DE00C222E0 /* CeldaHeroeController.swift */; };
+		3DAD610128F5C21900C222E0 /* MarvelRegular-Dj83.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3DAD610028F5C21800C222E0 /* MarvelRegular-Dj83.ttf */; };
+		3DAD610328F5C2BE00C222E0 /* Louis George Cafe.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3DAD610228F5C2BE00C222E0 /* Louis George Cafe.ttf */; };
+		3DAD610528F5C56600C222E0 /* Louis George Cafe Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3DAD610428F5C56600C222E0 /* Louis George Cafe Bold.ttf */; };
+		3DAD610728F5C61A00C222E0 /* DetallesHeroeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAD610628F5C61A00C222E0 /* DetallesHeroeController.swift */; };
+		3DAD610928F5C6C400C222E0 /* Comic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAD610828F5C6C400C222E0 /* Comic.swift */; };
+		3DAD610B28F5C7F200C222E0 /* CeldaComicController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAD610A28F5C7F200C222E0 /* CeldaComicController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +56,15 @@
 		3DAD60E828F5B15F00C222E0 /* moviles2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = moviles2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DAD60EC28F5B15F00C222E0 /* moviles2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = moviles2UITests.swift; sourceTree = "<group>"; };
 		3DAD60EE28F5B15F00C222E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DAD60FA28F5B44400C222E0 /* HeroesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroesController.swift; sourceTree = "<group>"; };
+		3DAD60FC28F5B5A400C222E0 /* Heroe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heroe.swift; sourceTree = "<group>"; };
+		3DAD60FE28F5B8DE00C222E0 /* CeldaHeroeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaHeroeController.swift; sourceTree = "<group>"; };
+		3DAD610028F5C21800C222E0 /* MarvelRegular-Dj83.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MarvelRegular-Dj83.ttf"; sourceTree = "<group>"; };
+		3DAD610228F5C2BE00C222E0 /* Louis George Cafe.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Louis George Cafe.ttf"; sourceTree = "<group>"; };
+		3DAD610428F5C56600C222E0 /* Louis George Cafe Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Louis George Cafe Bold.ttf"; sourceTree = "<group>"; };
+		3DAD610628F5C61A00C222E0 /* DetallesHeroeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetallesHeroeController.swift; sourceTree = "<group>"; };
+		3DAD610828F5C6C400C222E0 /* Comic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comic.swift; sourceTree = "<group>"; };
+		3DAD610A28F5C7F200C222E0 /* CeldaComicController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaComicController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +115,21 @@
 		3DAD60CB28F5B15C00C222E0 /* moviles2 */ = {
 			isa = PBXGroup;
 			children = (
+				3DAD610428F5C56600C222E0 /* Louis George Cafe Bold.ttf */,
+				3DAD610228F5C2BE00C222E0 /* Louis George Cafe.ttf */,
+				3DAD610028F5C21800C222E0 /* MarvelRegular-Dj83.ttf */,
 				3DAD60CC28F5B15C00C222E0 /* AppDelegate.swift */,
 				3DAD60CE28F5B15C00C222E0 /* ViewController.swift */,
 				3DAD60D028F5B15C00C222E0 /* Main.storyboard */,
 				3DAD60D328F5B15E00C222E0 /* Assets.xcassets */,
 				3DAD60D528F5B15E00C222E0 /* LaunchScreen.storyboard */,
 				3DAD60D828F5B15E00C222E0 /* Info.plist */,
+				3DAD60FA28F5B44400C222E0 /* HeroesController.swift */,
+				3DAD60FC28F5B5A400C222E0 /* Heroe.swift */,
+				3DAD60FE28F5B8DE00C222E0 /* CeldaHeroeController.swift */,
+				3DAD610628F5C61A00C222E0 /* DetallesHeroeController.swift */,
+				3DAD610828F5C6C400C222E0 /* Comic.swift */,
+				3DAD610A28F5C7F200C222E0 /* CeldaComicController.swift */,
 			);
 			path = moviles2;
 			sourceTree = "<group>";
@@ -230,8 +257,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				3DAD60D728F5B15E00C222E0 /* LaunchScreen.storyboard in Resources */,
+				3DAD610128F5C21900C222E0 /* MarvelRegular-Dj83.ttf in Resources */,
+				3DAD610328F5C2BE00C222E0 /* Louis George Cafe.ttf in Resources */,
 				3DAD60D428F5B15E00C222E0 /* Assets.xcassets in Resources */,
 				3DAD60D228F5B15C00C222E0 /* Main.storyboard in Resources */,
+				3DAD610528F5C56600C222E0 /* Louis George Cafe Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,8 +286,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DAD60FB28F5B44400C222E0 /* HeroesController.swift in Sources */,
+				3DAD610728F5C61A00C222E0 /* DetallesHeroeController.swift in Sources */,
+				3DAD610928F5C6C400C222E0 /* Comic.swift in Sources */,
+				3DAD60FD28F5B5A400C222E0 /* Heroe.swift in Sources */,
 				3DAD60CF28F5B15C00C222E0 /* ViewController.swift in Sources */,
+				3DAD610B28F5C7F200C222E0 /* CeldaComicController.swift in Sources */,
 				3DAD60CD28F5B15C00C222E0 /* AppDelegate.swift in Sources */,
+				3DAD60FF28F5B8DE00C222E0 /* CeldaHeroeController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
