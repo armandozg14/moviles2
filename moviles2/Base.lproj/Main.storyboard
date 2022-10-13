@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="9V2-aI-wJ5">
-    <device id="retina6_1" orientation="portrait">
+    <device id="retina5_9" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -26,7 +26,7 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="HeroesController" customModule="moviles2" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="1hx-Ui-fgf">
@@ -38,7 +38,7 @@
                                         <rect key="frame" x="0.0" y="28" width="414" height="127"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="A04-Ax-lxq" id="EU2-Ui-AnR">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="126.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="126.66666666666667"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Scarlet Witch" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j4W-fE-YpQ">
@@ -62,7 +62,7 @@
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gLV-ho-Wcl">
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gLV-ho-Wcl">
                                                     <rect key="frame" x="8" y="11" width="147" height="105"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 </imageView>
@@ -100,151 +100,141 @@
             <objects>
                 <viewController id="VbA-We-2pD" customClass="DetallesHeroeController" customModule="moviles2" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="V6G-0k-1kv">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Dgh-ET-66e">
-                                <rect key="frame" x="20" y="103" width="374" height="212"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="LqV-fM-uuW">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="NOMBRE AUTENTICO" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vav-I1-etq">
-                                <rect key="frame" x="20" y="323" width="192" height="36"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Marvel-Regular" family="Marvel" pointSize="30"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Dgh-ET-66e">
+                                <rect key="frame" x="17.666666666666657" y="102.99999999999999" width="337.33333333333337" height="186.66666666666663"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="NOMBRE AUTENTICO" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vav-I1-etq">
+                                <rect key="frame" x="20" y="299.66666666666669" width="187.66666666666666" height="32.666666666666686"/>
+                                <fontDescription key="fontDescription" name="Marvel-Regular" family="Marvel" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iBh-gc-SuZ">
-                                <rect key="frame" x="20" y="350" width="374" height="29"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iBh-gc-SuZ">
+                                <rect key="frame" x="20" y="336.66666666666669" width="225" height="24.333333333333314"/>
                                 <string key="text">Wanda Maximoff Lehnsherr
 </string>
                                 <fontDescription key="fontDescription" name="LouisGeorgeCafe" family="Louis George Cafe" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="OCUPACION" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3IU-jl-4Xf">
-                                <rect key="frame" x="20" y="451" width="96" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Marvel-Regular" family="Marvel" pointSize="30"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="OCUPACION" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3IU-jl-4Xf">
+                                <rect key="frame" x="21" y="371" width="195" height="24.333333333333314"/>
+                                <fontDescription key="fontDescription" name="Marvel-Regular" family="Marvel" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5lb-yC-ZwN">
-                                <rect key="frame" x="20" y="478" width="374" height="64"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5lb-yC-ZwN">
+                                <rect key="frame" x="21" y="394.33333333333331" width="337.66666666666669" height="24.333333333333314"/>
                                 <string key="text">Aventurera profesional, ama de casa
 </string>
                                 <fontDescription key="fontDescription" name="LouisGeorgeCafe" family="Louis George Cafe" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="IDENTIDAD" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wfn-ha-Zap">
-                                <rect key="frame" x="20" y="539" width="88" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Marvel-Regular" family="Marvel" pointSize="30"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="IDENTIDAD" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wfn-ha-Zap">
+                                <rect key="frame" x="19" y="428.66666666666669" width="341.33333333333331" height="24.666666666666686"/>
+                                <fontDescription key="fontDescription" name="Marvel-Regular" family="Marvel" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G4J-Pm-9jK">
-                                <rect key="frame" x="20" y="566" width="374" height="29"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G4J-Pm-9jK">
+                                <rect key="frame" x="19" y="454.66666666666669" width="341.33333333333331" height="24.333333333333314"/>
                                 <string key="text">Conocida públicamente
 </string>
                                 <fontDescription key="fontDescription" name="LouisGeorgeCafe" family="Louis George Cafe" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="EDAD" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kCX-Bs-GJ4">
-                                <rect key="frame" x="20" y="387" width="42" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Marvel-Regular" family="Marvel" pointSize="30"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="EDAD" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kCX-Bs-GJ4">
+                                <rect key="frame" x="235" y="303.66666666666669" width="120" height="24.333333333333314"/>
+                                <fontDescription key="fontDescription" name="Marvel-Regular" family="Marvel" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="27" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cen-ye-Rce">
-                                <rect key="frame" x="20" y="414" width="17" height="19"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PODERES Y HABILIDADES" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sdr-i9-LI0">
+                                <rect key="frame" x="19" y="489" width="341.33333333333331" height="24.333333333333371"/>
+                                <fontDescription key="fontDescription" name="Marvel-Regular" family="Marvel" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Magia del Caos, proyección de energía, telepatía, manipulación de las probabilidades, alteración y distorsión de la realidad." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LoB-P7-Nn0">
+                                <rect key="frame" x="20" y="514.33333333333337" width="341.33333333333331" height="65"/>
                                 <fontDescription key="fontDescription" name="LouisGeorgeCafe" family="Louis George Cafe" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="PODERES Y HABILIDADES" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sdr-i9-LI0">
-                                <rect key="frame" x="20" y="603" width="200" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Marvel-Regular" family="Marvel" pointSize="30"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CREADORES" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qQN-gG-F2O">
+                                <rect key="frame" x="19" y="589.33333333333337" width="341.33333333333331" height="24.333333333333371"/>
+                                <fontDescription key="fontDescription" name="Marvel-Regular" family="Marvel" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Magia del Caos, proyección de energía, telepatía, manipulación de las probabilidades, alteración y distorsión de la realidad." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LoB-P7-Nn0">
-                                <rect key="frame" x="20" y="630" width="374" height="70"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Vision" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x1B-xb-IfK">
+                                <rect key="frame" x="19" y="673.33333333333337" width="341.33333333333331" height="24.333333333333371"/>
                                 <fontDescription key="fontDescription" name="LouisGeorgeCafe" family="Louis George Cafe" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Stan Lee, Jack Kirby" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xQW-9u-p5k">
-                                <rect key="frame" x="20" y="734" width="374" height="27"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PAREJAS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q3Q-V4-El5">
+                                <rect key="frame" x="20" y="649" width="341.33333333333331" height="24.333333333333371"/>
+                                <fontDescription key="fontDescription" name="Marvel-Regular" family="Marvel" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="COMICS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hcU-xz-2aZ">
+                                <rect key="frame" x="19" y="705.66666666666663" width="341.33333333333331" height="24.333333333333371"/>
+                                <fontDescription key="fontDescription" name="Marvel-Regular" family="Marvel" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="27" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cen-ye-Rce">
+                                <rect key="frame" x="235" y="329.66666666666669" width="120" height="24.333333333333314"/>
                                 <fontDescription key="fontDescription" name="LouisGeorgeCafe" family="Louis George Cafe" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="CREADORES" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qQN-gG-F2O">
-                                <rect key="frame" x="20" y="708" width="90" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Marvel-Regular" family="Marvel" pointSize="30"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Vision" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x1B-xb-IfK">
-                                <rect key="frame" x="20" y="795" width="374" height="48"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Stan Lee, Jack Kirby" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xQW-9u-p5k">
+                                <rect key="frame" x="21" y="614.66666666666663" width="341.33333333333331" height="24.333333333333371"/>
                                 <fontDescription key="fontDescription" name="LouisGeorgeCafe" family="Louis George Cafe" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="PAREJAS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q3Q-V4-El5">
-                                <rect key="frame" x="20" y="769" width="68" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Marvel-Regular" family="Marvel" pointSize="30"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="COMICS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hcU-xz-2aZ">
-                                <rect key="frame" x="20" y="832" width="61" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Marvel-Regular" family="Marvel" pointSize="30"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="5FG-Yr-7sY">
-                                <rect key="frame" x="0.0" y="870" width="414" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="5FG-Yr-7sY">
+                                <rect key="frame" x="0.0" y="731" width="375" height="812"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="celdaComic" id="kaK-f7-aH1" customClass="CeldaComicController" customModule="moviles2" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="414" height="44"/>
+                                        <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="kaK-f7-aH1" id="Qb2-TQ-y5x">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.666666666666664"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="West Coast Avengers" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kv2-nB-tun">
-                                                    <rect key="frame" x="20" y="11" width="160" height="19"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="West Coast Avengers" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kv2-nB-tun">
+                                                    <rect key="frame" x="15" y="11" width="160" height="19"/>
                                                     <fontDescription key="fontDescription" name="LouisGeorgeCafe" family="Louis George Cafe" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="# 51-52" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jVj-he-iYn">
-                                                    <rect key="frame" x="338" y="11" width="56" height="19"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="# 51-52" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jVj-he-iYn">
+                                                    <rect key="frame" x="249" y="11" width="56" height="19"/>
                                                     <fontDescription key="fontDescription" name="LouisGeorgeCafe-Bold" family="Louis George Cafe" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
+                                            <constraints>
+                                                <constraint firstItem="jVj-he-iYn" firstAttribute="top" secondItem="Qb2-TQ-y5x" secondAttribute="topMargin" id="Lb1-N8-p87"/>
+                                                <constraint firstItem="Kv2-nB-tun" firstAttribute="top" secondItem="Qb2-TQ-y5x" secondAttribute="topMargin" id="Ryc-XE-qbn"/>
+                                                <constraint firstItem="jVj-he-iYn" firstAttribute="trailing" secondItem="Qb2-TQ-y5x" secondAttribute="trailingMargin" id="dXk-GA-MdF"/>
+                                                <constraint firstItem="Kv2-nB-tun" firstAttribute="leading" secondItem="Qb2-TQ-y5x" secondAttribute="leadingMargin" id="rzx-JM-4Eq"/>
+                                            </constraints>
                                         </tableViewCellContentView>
                                         <connections>
                                             <outlet property="lblNombre" destination="Kv2-nB-tun" id="YWS-YT-Q4W"/>
@@ -259,6 +249,80 @@
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="vav-I1-etq" firstAttribute="top" secondItem="Dgh-ET-66e" secondAttribute="bottom" constant="10" id="1E5-lV-ZM0"/>
+                            <constraint firstItem="5lb-yC-ZwN" firstAttribute="leading" secondItem="Ed3-Z2-Aaa" secondAttribute="leading" constant="21" id="1P1-2b-N3o"/>
+                            <constraint firstItem="kCX-Bs-GJ4" firstAttribute="width" secondItem="V6G-0k-1kv" secondAttribute="width" multiplier="0.32" id="1hx-ca-8RD"/>
+                            <constraint firstItem="xQW-9u-p5k" firstAttribute="top" secondItem="qQN-gG-F2O" secondAttribute="bottom" constant="1" id="36b-Gp-oBC"/>
+                            <constraint firstItem="kCX-Bs-GJ4" firstAttribute="height" secondItem="V6G-0k-1kv" secondAttribute="height" multiplier="0.03" id="3X6-Ai-Li0"/>
+                            <constraint firstItem="3IU-jl-4Xf" firstAttribute="leading" secondItem="Ed3-Z2-Aaa" secondAttribute="leading" constant="21" id="3ew-ji-fh0"/>
+                            <constraint firstItem="Q3Q-V4-El5" firstAttribute="width" secondItem="V6G-0k-1kv" secondAttribute="width" multiplier="0.91" id="3rT-vy-wim"/>
+                            <constraint firstItem="cen-ye-Rce" firstAttribute="width" secondItem="V6G-0k-1kv" secondAttribute="width" multiplier="0.32" id="4zf-cg-Wq9"/>
+                            <constraint firstItem="LoB-P7-Nn0" firstAttribute="width" secondItem="V6G-0k-1kv" secondAttribute="width" multiplier="0.91" id="7Ai-ao-qmm"/>
+                            <constraint firstItem="5lb-yC-ZwN" firstAttribute="width" secondItem="V6G-0k-1kv" secondAttribute="width" multiplier="0.9" id="7J8-o3-t4t"/>
+                            <constraint firstItem="LqV-fM-uuW" firstAttribute="width" secondItem="V6G-0k-1kv" secondAttribute="width" id="7jG-fd-PXR"/>
+                            <constraint firstItem="Wfn-ha-Zap" firstAttribute="width" secondItem="V6G-0k-1kv" secondAttribute="width" multiplier="0.91" id="7mJ-xU-zrM"/>
+                            <constraint firstItem="G4J-Pm-9jK" firstAttribute="height" secondItem="V6G-0k-1kv" secondAttribute="height" multiplier="0.03" id="7zR-yy-zxI"/>
+                            <constraint firstItem="5FG-Yr-7sY" firstAttribute="leading" secondItem="Ed3-Z2-Aaa" secondAttribute="leading" id="8XV-18-piN"/>
+                            <constraint firstItem="hcU-xz-2aZ" firstAttribute="width" secondItem="V6G-0k-1kv" secondAttribute="width" multiplier="0.91" id="8p0-tn-pdb"/>
+                            <constraint firstItem="G4J-Pm-9jK" firstAttribute="leading" secondItem="Ed3-Z2-Aaa" secondAttribute="leading" constant="19" id="9O4-Hi-iCh"/>
+                            <constraint firstItem="Ed3-Z2-Aaa" firstAttribute="trailing" secondItem="cen-ye-Rce" secondAttribute="trailing" constant="20" id="9Qi-T0-cS5"/>
+                            <constraint firstItem="3IU-jl-4Xf" firstAttribute="top" secondItem="iBh-gc-SuZ" secondAttribute="bottom" constant="10" id="9RL-BH-lfk"/>
+                            <constraint firstItem="5lb-yC-ZwN" firstAttribute="height" secondItem="V6G-0k-1kv" secondAttribute="height" multiplier="0.03" id="BUc-lj-cBE"/>
+                            <constraint firstItem="hcU-xz-2aZ" firstAttribute="leading" secondItem="Ed3-Z2-Aaa" secondAttribute="leading" constant="19" id="Bxi-ge-eCE"/>
+                            <constraint firstItem="5FG-Yr-7sY" firstAttribute="width" secondItem="V6G-0k-1kv" secondAttribute="width" id="CT5-eW-qwh"/>
+                            <constraint firstItem="vav-I1-etq" firstAttribute="height" secondItem="V6G-0k-1kv" secondAttribute="height" multiplier="0.04" id="D5D-eL-Bzo"/>
+                            <constraint firstItem="LqV-fM-uuW" firstAttribute="height" secondItem="V6G-0k-1kv" secondAttribute="height" id="DDX-aI-gt9"/>
+                            <constraint firstItem="G4J-Pm-9jK" firstAttribute="width" secondItem="V6G-0k-1kv" secondAttribute="width" multiplier="0.91" id="E6s-yr-3Dc"/>
+                            <constraint firstItem="Dgh-ET-66e" firstAttribute="width" secondItem="V6G-0k-1kv" secondAttribute="width" multiplier="0.9" id="EHl-Ci-1sr"/>
+                            <constraint firstItem="Dgh-ET-66e" firstAttribute="top" secondItem="Ed3-Z2-Aaa" secondAttribute="top" constant="15" id="Gkv-Kq-gpL"/>
+                            <constraint firstItem="Ed3-Z2-Aaa" firstAttribute="trailing" secondItem="kCX-Bs-GJ4" secondAttribute="trailing" constant="20" id="Imw-et-6hA"/>
+                            <constraint firstItem="xQW-9u-p5k" firstAttribute="height" secondItem="V6G-0k-1kv" secondAttribute="height" multiplier="0.03" id="JDz-pp-4iI"/>
+                            <constraint firstItem="Q3Q-V4-El5" firstAttribute="leading" secondItem="Ed3-Z2-Aaa" secondAttribute="leading" constant="20" id="Jxg-X8-hDd"/>
+                            <constraint firstItem="Wfn-ha-Zap" firstAttribute="top" secondItem="5lb-yC-ZwN" secondAttribute="bottom" constant="10" id="KXe-Dh-sPj"/>
+                            <constraint firstItem="LoB-P7-Nn0" firstAttribute="leading" secondItem="Ed3-Z2-Aaa" secondAttribute="leading" constant="20" id="Khn-lp-573"/>
+                            <constraint firstItem="x1B-xb-IfK" firstAttribute="height" secondItem="V6G-0k-1kv" secondAttribute="height" multiplier="0.03" id="LjT-hn-kRH"/>
+                            <constraint firstItem="x1B-xb-IfK" firstAttribute="width" secondItem="V6G-0k-1kv" secondAttribute="width" multiplier="0.91" id="MEl-Sx-XRm"/>
+                            <constraint firstItem="hcU-xz-2aZ" firstAttribute="height" secondItem="V6G-0k-1kv" secondAttribute="height" multiplier="0.03" id="Meg-HR-Wge"/>
+                            <constraint firstItem="qQN-gG-F2O" firstAttribute="leading" secondItem="Ed3-Z2-Aaa" secondAttribute="leading" constant="19" id="NBX-Gt-X2L"/>
+                            <constraint firstItem="vav-I1-etq" firstAttribute="leading" secondItem="Ed3-Z2-Aaa" secondAttribute="leading" constant="20" id="OQO-b3-W2o"/>
+                            <constraint firstItem="Q3Q-V4-El5" firstAttribute="height" secondItem="V6G-0k-1kv" secondAttribute="height" multiplier="0.03" id="Rct-54-ex4"/>
+                            <constraint firstItem="kCX-Bs-GJ4" firstAttribute="top" secondItem="Dgh-ET-66e" secondAttribute="bottom" constant="14" id="S9k-bs-9DC"/>
+                            <constraint firstItem="3IU-jl-4Xf" firstAttribute="height" secondItem="V6G-0k-1kv" secondAttribute="height" multiplier="0.03" id="S9x-lu-eEI"/>
+                            <constraint firstItem="5FG-Yr-7sY" firstAttribute="height" secondItem="V6G-0k-1kv" secondAttribute="height" id="TJL-RQ-Lwi"/>
+                            <constraint firstItem="Wfn-ha-Zap" firstAttribute="leading" secondItem="Ed3-Z2-Aaa" secondAttribute="leading" constant="19" id="TLC-qA-MxE"/>
+                            <constraint firstItem="cen-ye-Rce" firstAttribute="height" secondItem="V6G-0k-1kv" secondAttribute="height" multiplier="0.03" id="TaD-Uc-qhc"/>
+                            <constraint firstItem="iBh-gc-SuZ" firstAttribute="width" secondItem="V6G-0k-1kv" secondAttribute="width" multiplier="0.6" id="U5h-He-6G3"/>
+                            <constraint firstItem="3IU-jl-4Xf" firstAttribute="width" secondItem="V6G-0k-1kv" secondAttribute="width" multiplier="0.52" id="UDR-jB-RMm"/>
+                            <constraint firstItem="sdr-i9-LI0" firstAttribute="width" secondItem="V6G-0k-1kv" secondAttribute="width" multiplier="0.91" id="Ui3-lB-wIu"/>
+                            <constraint firstItem="LqV-fM-uuW" firstAttribute="centerX" secondItem="V6G-0k-1kv" secondAttribute="centerX" id="X7y-OL-4KS"/>
+                            <constraint firstItem="x1B-xb-IfK" firstAttribute="leading" secondItem="Ed3-Z2-Aaa" secondAttribute="leading" constant="19" id="XR2-qa-RLy"/>
+                            <constraint firstItem="cen-ye-Rce" firstAttribute="top" secondItem="Dgh-ET-66e" secondAttribute="bottom" constant="40" id="XYz-Ly-w0j"/>
+                            <constraint firstItem="x1B-xb-IfK" firstAttribute="top" secondItem="Q3Q-V4-El5" secondAttribute="bottom" id="Xua-km-SuH"/>
+                            <constraint firstItem="hcU-xz-2aZ" firstAttribute="top" secondItem="x1B-xb-IfK" secondAttribute="bottom" constant="8" id="Z0Z-cV-mgb"/>
+                            <constraint firstItem="5lb-yC-ZwN" firstAttribute="top" secondItem="3IU-jl-4Xf" secondAttribute="bottom" constant="-1" id="ZHW-CA-QV7"/>
+                            <constraint firstItem="G4J-Pm-9jK" firstAttribute="top" secondItem="Wfn-ha-Zap" secondAttribute="bottom" constant="1.5" id="ZUd-4E-F2i"/>
+                            <constraint firstItem="LoB-P7-Nn0" firstAttribute="top" secondItem="sdr-i9-LI0" secondAttribute="bottom" constant="1" id="Zdh-fA-pZZ"/>
+                            <constraint firstItem="qQN-gG-F2O" firstAttribute="height" secondItem="V6G-0k-1kv" secondAttribute="height" multiplier="0.03" id="f92-9M-SWg"/>
+                            <constraint firstItem="sdr-i9-LI0" firstAttribute="top" secondItem="G4J-Pm-9jK" secondAttribute="bottom" constant="10" id="gE4-w2-Sez"/>
+                            <constraint firstItem="qQN-gG-F2O" firstAttribute="top" secondItem="LoB-P7-Nn0" secondAttribute="bottom" constant="10" id="k5F-DZ-OcE"/>
+                            <constraint firstItem="qQN-gG-F2O" firstAttribute="width" secondItem="V6G-0k-1kv" secondAttribute="width" multiplier="0.91" id="kMi-qh-eSD"/>
+                            <constraint firstItem="Q3Q-V4-El5" firstAttribute="top" secondItem="xQW-9u-p5k" secondAttribute="bottom" constant="10" id="lBs-Ag-znu"/>
+                            <constraint firstItem="5FG-Yr-7sY" firstAttribute="top" secondItem="hcU-xz-2aZ" secondAttribute="bottom" constant="1" id="oYJ-H8-cf7"/>
+                            <constraint firstItem="LqV-fM-uuW" firstAttribute="centerY" secondItem="V6G-0k-1kv" secondAttribute="centerY" id="oaF-T6-as5"/>
+                            <constraint firstItem="xQW-9u-p5k" firstAttribute="leading" secondItem="Ed3-Z2-Aaa" secondAttribute="leading" constant="21" id="pcA-f8-ZDT"/>
+                            <constraint firstItem="iBh-gc-SuZ" firstAttribute="height" secondItem="V6G-0k-1kv" secondAttribute="height" multiplier="0.03" id="tEt-GY-cLA"/>
+                            <constraint firstItem="Dgh-ET-66e" firstAttribute="height" secondItem="V6G-0k-1kv" secondAttribute="height" multiplier="0.23" id="un3-37-jTc"/>
+                            <constraint firstItem="LoB-P7-Nn0" firstAttribute="height" secondItem="V6G-0k-1kv" secondAttribute="height" multiplier="0.08" id="vAQ-pL-JTq"/>
+                            <constraint firstItem="sdr-i9-LI0" firstAttribute="leading" secondItem="Ed3-Z2-Aaa" secondAttribute="leading" constant="19" id="vjv-MB-GBf"/>
+                            <constraint firstItem="Ed3-Z2-Aaa" firstAttribute="trailing" secondItem="Dgh-ET-66e" secondAttribute="trailing" constant="20" id="wNH-GR-Rqe"/>
+                            <constraint firstItem="sdr-i9-LI0" firstAttribute="height" secondItem="V6G-0k-1kv" secondAttribute="height" multiplier="0.03" id="wWX-Zl-HrQ"/>
+                            <constraint firstItem="vav-I1-etq" firstAttribute="width" secondItem="V6G-0k-1kv" secondAttribute="width" multiplier="0.5" id="wuk-p6-acp"/>
+                            <constraint firstItem="iBh-gc-SuZ" firstAttribute="leading" secondItem="Ed3-Z2-Aaa" secondAttribute="leading" constant="20" id="x7n-PA-uCA"/>
+                            <constraint firstItem="iBh-gc-SuZ" firstAttribute="top" secondItem="vav-I1-etq" secondAttribute="bottom" constant="4.5" id="xL3-uG-3te"/>
+                            <constraint firstItem="xQW-9u-p5k" firstAttribute="width" secondItem="V6G-0k-1kv" secondAttribute="width" multiplier="0.91" id="ydk-Ws-EI6"/>
+                            <constraint firstItem="Wfn-ha-Zap" firstAttribute="height" secondItem="V6G-0k-1kv" secondAttribute="height" multiplier="0.03" id="zNE-n9-0O7"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="Ed3-Z2-Aaa"/>
                     </view>
                     <connections>
@@ -282,8 +346,14 @@
             <objects>
                 <navigationController id="9V2-aI-wJ5" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="8Xr-Ia-Df0">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" red="0.6712475712435233" green="0.15372543294488603" blue="0.21402778653020088" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="tintColor" red="0.1215686275" green="0.12941176469999999" blue="0.14117647059999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                            <color key="textColor" red="0.1215686275" green="0.12941176469999999" blue="0.14117647059999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </textAttributes>
                     </navigationBar>
                     <connections>
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="dLf-AQ-Lgg"/>

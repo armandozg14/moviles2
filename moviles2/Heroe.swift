@@ -17,8 +17,9 @@ class Heroe{
     var creador:String
     var pareja:String
     var comics: [Comic]
+    var foto:String
     
-    init(imagen: String, apodo: String, nombre: String, edad: String, ocupacion: String, identidad: String, poder: String, creador: String, pareja: String, comics: [Comic]) {
+    init(imagen: String, apodo: String, nombre: String, edad: String, ocupacion: String, identidad: String, poder: String, creador: String, pareja: String, comics: [Comic], foto: String) {
         self.imagen = imagen
         self.apodo = apodo
         self.nombre = nombre
@@ -29,5 +30,6 @@ class Heroe{
         self.creador = creador
         self.pareja = pareja
         self.comics = comics
+        self.foto = foto
     }
 }
